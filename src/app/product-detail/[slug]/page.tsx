@@ -13,7 +13,7 @@ const ProductDetail = () => {
   });
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
-  console.log(data);
+
   return (
     <div className="bg-white min-h-[100vh]">
       <div className="pt-10 mb-10 flex justify-center items-center">
